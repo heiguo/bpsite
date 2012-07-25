@@ -1,0 +1,49 @@
+html, body, div, h1, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body, div, p {
+    font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", "Hiragino Sans GB", 'Eras MEDIUM ITC', 'CENTURY GOTHIC', 'Microsoft Yahei', Arial, STHeiti !important;
+    font-size: 16px;
+    line-height: 24px;
+}
+* {
+    outline: 0!important;
+}
+body {
+    background: #1C140D;
+}
+#container {
+    margin: 10px auto 10px auto;
+    width: 600px;
+    height: 500px;
+    color: #F2E9E1;
+}
+a {
+    color: #4ECDC4;
+    text-decoration: none;
+}
+a:hover {
+    color: #CBE86B;
+    text-decoration: none;
+    border-bottom: solid 1px #CBE86B;
+}
+h1 {
+    font-size: 40px;
+    line-height: 40px;
+    margin: 64px 0px 64px 0px;
+    letter-spacing: 3px;
+}
+.group {
+    font-size: 26px;
+    line-height: 150%;
+    border-bottom: dashed 1px #333;
+    margin: 32px 0px 10px 0px;
+}
+#footer {
+    margin-top: 89px;
+}
